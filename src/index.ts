@@ -26,8 +26,8 @@ app.use(
 app.use(express.json());
 app.use('/', scheduleRoutes, appointmentRoutes);
 
-app.listen(port, () => {
-  console.log(`Server Runnig ${port}`);
+app.listen(2222, () => {
+  console.log(`Server Runnig 2222`);
 
 });
 
