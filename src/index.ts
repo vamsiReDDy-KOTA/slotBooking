@@ -27,7 +27,7 @@ app.use(express.json());
 app.use('/', scheduleRoutes, appointmentRoutes);
 
 app.get('/',(req,res)=>{
-return res.send('hello')
+return res.send('hello vamsi reddy')
 })
 
 app.listen(2222, () => {
