@@ -26,6 +26,10 @@ app.use(
 app.use(express.json());
 app.use('/', scheduleRoutes, appointmentRoutes);
 
+app.get('/',(req,res)=>{
+return res.send('hello')
+})
+
 app.listen(2222, () => {
   console.log(`Server Runnig 2222`);
 
