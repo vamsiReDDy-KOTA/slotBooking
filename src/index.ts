@@ -9,7 +9,7 @@ const port: string | number = 8080;
 // Connect to Mongoose and set connection variable
 mongoose.set('runValidators', true);
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://Naren:312213snk@cluster0.xz5mg.mongodb.net/test?retryWrites=true&w=majority').then(async () => {
+mongoose.connect('mongodb+srv://vamsiReddyk:vamsi22@cluster0.auer7qa.mongodb.net/timezone?retryWrites=true&w=majority').then(async () => {
   mongoose.set('debug', true);
   console.log('Db connected successfully');
 
